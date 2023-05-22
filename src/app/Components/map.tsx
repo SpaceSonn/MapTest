@@ -1,10 +1,8 @@
 'use client'
 import 'flowbite';
-import { Dropdown } from 'flowbite';
 import React, { useState, useEffect } from 'react';
 import { GoogleMap, useLoadScript, MarkerF } from '@react-google-maps/api';
 import { getDistance } from 'geolib';
-import axios from 'axios';
 import { InfoWindowF } from '@react-google-maps/api';
 import Script from 'next/script';
 
